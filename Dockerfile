@@ -30,7 +30,7 @@ FROM node:19-bullseye-slim AS server
 # Set the working directory
 WORKDIR /app
 
-# Update the package index and install required dependencies
+# Update the package index and install the required dependencies
 # RUN apt-get update && \
 #     apt-get install -y \
 #     curl \
